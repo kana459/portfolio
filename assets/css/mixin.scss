@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+$c_base: #fff;
+
+$c_main: #E78F86;
+
+$c_sub: #FAAE63;
+
+$c_black: #000000;
+
+@mixin sp() {
+    @media screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin sp_hor() {
+    @media (orientation: landscape) {
+      @content;
+    }
+  }
+
+@mixin tab() {
+    @media screen and (min-width:768px) and (max-width:1279px) {
+        @content;
+    }
+}
+
+@mixin ie() {
+    @media all and (-ms-high-contrast: none) {
+        @content;
+    }
+}
+
+@mixin edge() {
+    @supports (-ms-ime-align: auto) {
+        @content;
+    }
+}
+
+@mixin chrom() {
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        @content;
+    }
+}
+
+@mixin firefox() {
+    @-moz-document url-prefix() {
+        @content;
+    }
+}
+
+  
+$font: "游ゴシック Medium", sans-serif;
+

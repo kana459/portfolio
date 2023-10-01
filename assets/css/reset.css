@@ -1,0 +1,44 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+}
+
+caption, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, img, input, li, ol, p, table, td, textarea, th, ul, address {
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  border: 0;
+}
+
+button {
+  font-weight: 700;
+  border: 0;
+  background: 0;
+}
+
+img {
+  vertical-align: bottom;
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  image-rendering: -webkit-auto;
+  image-rendering: auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+  caption, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, img, input, li, ol, p, table, td, textarea, th, ul {
+    -webkit-appearance: none;
+  }
+}/*# sourceMappingURL=reset.css.map */
