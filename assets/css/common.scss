@@ -338,6 +338,7 @@ body
     width: 100vw;
     height: 100vh;
     position: relative;
+    overflow: hidden;
 
     .top{
         width: 100vw;
@@ -393,12 +394,13 @@ body
         transform: translate(-50%, 0);
 
        .neko01, .neko02, .neko03{
-        height: fit-content;
+        height: 63vh;
         width: clamp(235px, 27vw, 300px);
        }
 
        .neko01{
         display: block;
+           
         @include sp {
             display: none;
         }
