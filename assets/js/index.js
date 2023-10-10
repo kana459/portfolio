@@ -11,6 +11,15 @@ jQuery(function () {
           // }, '1');
      
       over_effect();
+      setTimeout(() => {
+        $('.lds-grid').addClass('fadeout');
+        setTimeout(() => {
+            $('#loading').addClass('fadeout');
+            setTimeout(() => {
+                $('#loading').fadeOut();
+            }, 200);
+        }, 100);
+      }, 300);
 
 
       //URLのハッシュ値を取得
