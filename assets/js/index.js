@@ -6,9 +6,9 @@ jQuery(function () {
 
   //ローディング処理
   window.addEventListener('load', function () {
-          // jQuery('html,body').animate({
-          //     scrollTop: 0
-          // }, '1');
+          jQuery('html,body').animate({
+              scrollTop: 0
+          }, '1');
      
       over_effect();
       setTimeout(() => {
