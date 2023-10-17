@@ -338,7 +338,6 @@ body
     width: 100vw;
     height: 100vh;
     position: relative;
-    overflow: hidden;
 
     .top{
         width: 100vw;
@@ -400,7 +399,6 @@ body
 
        .neko01{
         display: block;
-           
         @include sp {
             display: none;
         }
